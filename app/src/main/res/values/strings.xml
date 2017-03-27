@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Seguimiento Taller Asesores</string>
+    <string name="t_ingreso">"  Ingresar la placa"</string>
+    <string name="i_ingreso">"Placa"</string>
+    <string name="btn_ingreso">"Ingresar"</string>
+    <string name="descripcion_imagen">"front Home"</string>
+</resources>

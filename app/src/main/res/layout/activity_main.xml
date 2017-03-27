@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:contentDescription="@string/descripcion_imagen"
+        app:srcCompat="@drawable/ini_layout" />
+
+    <TextView
+        android:id="@+id/layout_t_ingreso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/t_ingreso" />
+
+    <EditText
+        android:id="@+id/input_placa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/i_ingreso"
+        android:inputType="text|textCapCharacters|textNoSuggestions"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="registrarPlaca"
+        android:text="@string/btn_ingreso" />
+</LinearLayout>
